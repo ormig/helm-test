@@ -4,6 +4,7 @@ metadata:
   name: {{ include "hello-world.fullname" . }}
   labels:
     {{- include "hello-world.labels" . | nindent 4 }}
+    roro: "my-label"
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
