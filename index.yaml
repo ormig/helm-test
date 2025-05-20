@@ -3,6 +3,16 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-05-20T08:39:43.272387545Z"
+    description: A Helm chart for Kubernetes
+    digest: b6e02624246d74cd0fb413e9ebcc24b1220e7bb0b1f558e67ebdabd00fa688e6
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/ormig/helm-test/releases/download/hello-world-0.5.0/hello-world-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-05-19T08:49:46.966475883Z"
     description: A Helm chart for Kubernetes
     digest: be71d087ef7df88f8991da1911d9f31dc7956936504dc6a7f6deba9a3ee2364c
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/ormig/helm-test/releases/download/hello-world-0.4.0/hello-world-0.4.0.tgz
     version: 0.4.0
-generated: "2025-05-19T08:49:46.966481414Z"
+generated: "2025-05-20T08:39:43.27239556Z"
